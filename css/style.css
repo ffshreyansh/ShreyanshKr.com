@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Porlane;
+    src: url('./assets/porlane/Porlane.ttf');
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }
+
+  /* NAVBAR============================================================ */
+  #navbar{
+    margin: 2% 5%;
+  }
+  #navbar .navbar-brand{
+    font-weight: 800;
+    font-family: 'Satoshi', sans-serif;
+    font-size: x-large;
+    padding-left: 0;
+  }
+  .navbar-brand::selection{
+    background-color: #df3636;
+    color: white;
+  }
+  #navbar i{
+    margin-left: 30px;
+    font-size: x-large;
+  }
+  #navbar i:hover{
+    color: #df3636;
+  }
+  .line{
+    width: 100%;
+    height: 1px;
+    background-color: black; 
+  }
+
+  /* heading Text======================================================= */
+  .title {
+    color: white;
+    /* text-align: center; */
+    font-family: 'Porlane', sans-serif;
+    font-size: 449.78px;
+    overflow: hidden;
+    width: 100%;
+    height: 350px;
+    line-height: auto;
+  
+  }
+  #scroll-text::selection{
+    color: white;
+    background-color: #df3636;
+  }
+  #scroll-text {
+    width: 100%;
+    line-height: 0;
+    color: black;
+    text-align: start;
+    text-indent: 0px;
+    white-space: nowrap;
+    position: relative;
+    top: 200px;
+  
+  
+  
+    animation: scroll-animation 60s ease-in infinite;
+  
+  }
+  
+  @keyframes scroll-animation {
+    0% {
+      transform: translateX(0);
+    }
+  
+    50% {
+      transform: translateX(-100%);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+
+  /* Process ================================================================= */
+
+  #process{
+    margin: 2% 5%;
+    
+  }
+  #process p::selection{
+     color: white;
+    background-color: #df3636;
+  }
+  #process .container-fluid{
+    font-weight: 800;
+    font-family: 'Satoshi', sans-serif;
+    font-size: x-large;
+    margin-top: 20px;
+    display: flex;    
+    align-items: baseline;
+    
+  }
+  #process .box0{
+    margin-left: 6px;
+    width: 30px;
+    height: 3px;
+    background-color: #df3636;
+  }
+  #process .box1{
+    width: 100%;
+    height: 300px;
+    background-color: #df3636;
+    border-width: 10px;
+    border-color: black;
+  }
+  #process .title-text-process{
+    margin-bottom: 0;
+  }
+  #process .sub-text-process{
+    padding-left: 12px;
+    margin-bottom: 60px;
+    padding-right: 12px;
+  }
+  #process h1{
+    font-size: 48px;
+    margin-top: 120px;
+    font-family: 'Satoshi', sans-serif;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  #process p{
+    font-size: 18px;
+    font-family: 'Satoshi', sans-serif;
+    padding-left: 12px;
+    margin-top: 20px;
+  }
+
+  /* Projects==================================================== */
+  #project{
+    margin: 2% 5%;
+  }
+  #project .title{}
