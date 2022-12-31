@@ -59,9 +59,7 @@
     position: relative;
     top: 200px;
   
-  
-  
-    animation: scroll-animation 60s ease-in infinite;
+    animation: scroll-animation 90s ease-in infinite;
   
   }
   
@@ -80,7 +78,10 @@
   }
 
 
+
   /* Process ================================================================= */
+
+
 
   #process{
     margin: 2% 5%;
@@ -126,7 +127,9 @@
     font-family: 'Satoshi', sans-serif;
     padding-left: 12px;
     padding-right: 12px;
+    
   }
+ 
   #process p{
     font-size: 18px;
     font-family: 'Satoshi', sans-serif;
@@ -138,4 +141,17 @@
   #project{
     margin: 2% 5%;
   }
-  #project .title{}
+  #project .title-text-project{
+    font-weight: 800;
+    font-family: 'Satoshi', sans-serif;
+    font-size: x-large;
+    margin-top: 20px;
+    display: flex;    
+    align-items: baseline;
+  }
+  #project .box0{
+    margin-left: 6px;
+    width: 30px;
+    height: 3px;
+    background-color: #df3636;
+  }
