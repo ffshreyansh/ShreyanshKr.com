@@ -286,3 +286,32 @@ footer p{
   color: white;
   margin-left: 10px;
 }
+
+/* RESPONSIVE================================ */
+
+@media only screen and (max-width: 600px){
+  #process h1{
+    font-size: 32px;
+    margin-top: 40px;
+  }
+  #process p{
+    font-size: 16px;
+  }
+  #process img{
+    margin-left: 45px;
+  }
+  #project .box1{
+    height: 250px;
+  }
+  #contact img{
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+  footer i{
+    font-size: 16px;
+  }
+  footer{
+    font-size: 15px;
+  }
+  
+}
